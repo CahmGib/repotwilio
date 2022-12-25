@@ -23,7 +23,7 @@ from botbuilder.sangam.twilio.whatsapp.adapter.twilio_whatsapp_adapter_settings 
 
 CONFIG = DefaultConfig()
 
-endpoint_url = "https://36cc-2001-4bc9-b40-309b-1443-378f-5a0e-90a4.ngrok.io/api/whatsapp/messages"
+endpoint_url = "https://botnavidadappservice.azurewebsites.net/api/whatsapp/messages"
 
 twilio_settings = TwilioWhatsAppAdapterSettings(
     account_sid=CONFIG.ACCOUNT_SID,
